@@ -1,0 +1,12 @@
+[package]
+name = "actix-eg"
+version = "0.1.0"
+authors = ["Adam Chalmers <adam.s.chalmers@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-http = {version = "2.0.0", features = ["actors"] }
+actix-web = { version = "3.0.1" }
+bytes = "0.5"
